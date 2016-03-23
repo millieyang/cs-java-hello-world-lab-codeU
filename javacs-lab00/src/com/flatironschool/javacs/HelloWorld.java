@@ -14,6 +14,8 @@ public class HelloWorld {
 		else{
 			System.out.println("unsuitable version.");
 		}
+
+        System.out.println("Version number:" + getVersion());
 	// you can test the output of getVersion() here
     }
 }
